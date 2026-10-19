@@ -10,7 +10,7 @@ Before publishing:
 
 
 <div align="center">
-  <img src="profile-banner.png" alt="Julius-Scissor | Applied Mathematics, Statistics and Machine Learning" width="100%" />
+  <img src="profile-banner1.png" alt="Julius-Scissor | Applied Mathematics, Statistics and Machine Learning" width="100%" />
 </div>
 
 <br/>
