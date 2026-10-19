@@ -7,19 +7,17 @@ Before publishing:
 3. Confirm the displayed degree, tools, and project metrics.
 -->
 
+
 <div align="center">
 
 # Julius-Scissor
 
-### Applied Mathematics · Quantitative Finance · Statistical Learning
+### Applied Mathematics · Statistics · Machine Learning
 
-**Building and evaluating quantitative models through mathematics, statistics, and code.**
-
-[![Focus](https://img.shields.io/badge/FOCUS-QUANT%20RESEARCH-064E3B?style=flat-square)](https://github.com/Julius-Scissor)
-[![Domain](https://img.shields.io/badge/DOMAIN-APPLIED%20MATHEMATICS-065F46?style=flat-square)](https://github.com/Julius-Scissor)
-[![Status](https://img.shields.io/badge/STATUS-OPEN%20TO%20RESEARCH-064E3B?style=flat-square)](https://github.com/Julius-Scissor)
+Interested in quantitative finance, mathematical modelling, and data-driven research.
 
 </div>
+
 
 ---
 
