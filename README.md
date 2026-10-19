@@ -8,16 +8,12 @@ Before publishing:
 -->
 
 
+
 <div align="center">
-
-# Julius-Scissor
-
-### Applied Mathematics · Statistics · Machine Learning
-
-Interested in quantitative finance, mathematical modelling, and data-driven research.
-
+  <img src="profile-banner.png" alt="Julius-Scissor | Applied Mathematics, Statistics and Machine Learning" width="100%" />
 </div>
 
+<br/>
 
 ---
 
