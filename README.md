@@ -1,21 +1,9 @@
 
-<!--
-GitHub Profile README
-Before publishing:
-1. Verify the repository URLs below.
-2. Add your LinkedIn and professional email if you want them public.
-3. Confirm the displayed degree, tools, and project metrics.
--->
-
-
-
 <div align="center">
-  <img src="profile-banner1.png" alt="Julius-Scissor | Applied Mathematics, Statistics and Machine Learning" width="100%" />
+  <img src="profile-banner1.png" alt="Armaan Singh | Applied Mathematics, Statistics and Machine Learning" width="100%" />
 </div>
 
 <br/>
-
----
 
 ## About
 
@@ -23,71 +11,92 @@ I'm an **Integrated BS–MS student in Applied Mathematics at IISER Thiruvananth
 
 My work focuses on turning mathematical ideas into reproducible computational experiments. I enjoy building end-to-end pipelines, comparing models against sensible baselines, and examining whether apparent performance holds up under out-of-sample evaluation.
 
-**Current research interests**
-- Quantitative research and financial time series
-- Factor investing and portfolio optimisation
-- Statistical learning and predictive modelling
-- Numerical methods and mathematical modelling
-- Machine learning applications in motorsport strategy
-
-I'm particularly interested in projects where mathematical reasoning, careful validation, and implementation matter as much as the final metric.
+**Research interests:** Financial time series · Factor investing · Portfolio optimisation · Statistical learning · Mathematical modelling
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-### 01 · Factor Investing & Portfolio Optimisation
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Python · NumPy · pandas · SciPy · scikit-learn · yfinance**
+### 01 · Factor Investing
 
-An experimental quantitative-investing pipeline exploring factor-based portfolio construction in Indian equities.
+**Quantitative Finance**
 
-- Investigates momentum and low-volatility signals across a five-equity universe.
-- Implements long-only minimum-variance and maximum-Sharpe portfolio optimisation.
-- Examines portfolio weights, covariance estimates, and sensitivity to modelling choices.
-- Evaluates portfolio behaviour against equal-weight and NIFTY 50 benchmarks, with out-of-sample and walk-forward analysis.
+An experimental portfolio-construction pipeline for Indian equities.
 
-**Research question:** How sensitive are portfolio allocations and observed performance to factor definitions, estimation choices, and evaluation methodology?
+- Momentum and low-volatility factor signals
+- Minimum-variance and maximum-Sharpe optimisation
+- Portfolio constraints and covariance estimation
+- Out-of-sample evaluation against benchmarks
 
-[**Explore the repository →**](https://github.com/Julius-Scissor/factor-investing-portfolio-optimization)
+**Tools**
+
+`Python` `NumPy` `pandas` `SciPy` `scikit-learn`
+
+<br/>
+
+<a href="https://github.com/Julius-Scissor/factor-investing-portfolio-optimization">
+  <strong>Explore repository →</strong>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 02 · Market Direction ML
+
+**Financial Machine Learning**
+
+A study of whether historical NIFTY 50 data can help classify market direction.
+
+- Logistic regression, feed-forward neural networks, and LSTMs
+- Chronological validation and held-out testing
+- Train-only scaling and forward-label boundary purging
+- Open-to-open backtesting with transaction-cost assumptions
+
+**Tools**
+
+`Python` `PyTorch` `scikit-learn`
+
+<br/>
+
+<a href="https://github.com/Julius-Scissor/Financial-Market-Direction-ML">
+  <strong>Explore repository →</strong>
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 02 · Neural Network-Based Market Direction Classification
+## Currently Building
 
-**Python · PyTorch · scikit-learn**
-
-A financial machine-learning project investigating whether historical NIFTY 50 data can help classify market direction.
-
-- Compares logistic regression, feed-forward neural networks, and LSTM models.
-- Uses chronological validation and held-out testing rather than relying only on random splits.
-- Applies train-only scaling and forward-label boundary purging to reduce data leakage.
-- Extends predictive evaluation to open-to-open backtesting with explicit transaction-cost assumptions.
-
-**Key finding:** The experiments did not establish a reliable out-of-sample trading edge. The project documents the evaluation methodology and limitations rather than treating classification performance alone as evidence of profitability.
-
-[**Explore the repository →**](https://github.com/Julius-Scissor/Financial-Market-Direction-ML)
-
----
+<table>
+<tr>
+<td valign="top" width="100%">
 
 ### 03 · F1 TyreMind
 
-**Python · pandas · NumPy · scikit-learn · OpenF1**
+**Formula 1 · Tyre Degradation · Race Strategy**
 
-*Ongoing project*
+An ongoing machine-learning project exploring tyre degradation and stint-level performance, with the long-term goal of supporting race-stint strategy decisions.
 
-A machine-learning and race-strategy project exploring tyre degradation and stint-level performance in Formula 1.
+**Current milestone**
+- Initial data pipeline using OpenF1 session and lap data
+- 2024 Bahrain Grand Prix FP2 as the initial case study
+- Preliminary linear-regression baseline
+- Further validation and degradation-aware modelling planned
 
-- Builds a data pipeline from historical session and lap data.
-- Uses the 2024 Bahrain Grand Prix FP2 session as an initial case study.
-- Examines tyre degradation across drivers and stints as a foundation for modelling stint performance.
-- Aims to extend the model towards race-stint planning, tyre allocation constraints, and session-specific information from practice and qualifying.
+**Tools:** `Python` `pandas` `NumPy` `scikit-learn` `OpenF1`
 
-**Preliminary experiment:** A linear-regression baseline reported MAE of approximately **1.756 seconds** and RMSE of **2.178 seconds** on a random split of the initial dataset. These are preliminary results, not evidence of generalisation to unseen races; more rigorous temporal and race-level validation is needed.
+*Status: In progress. Preliminary results require more rigorous validation on unseen stints or races.*
 
-**Next steps:** Improve feature engineering, evaluate degradation-aware models, and develop strategy simulations under circuit-specific constraints.
-
-[**Explore the repository →**](https://github.com/Julius-Scissor)
+</td>
+</tr>
+</table>
 
 ---
 
@@ -95,49 +104,29 @@ A machine-learning and race-strategy project exploring tyre degradation and stin
 
 | Area | Tools and methods |
 |---|---|
-| **Programming** | Python |
-| **Data analysis** | NumPy, pandas |
-| **Machine learning** | scikit-learn, PyTorch |
-| **Optimisation & scientific computing** | SciPy, numerical methods |
-| **Quantitative methods** | Regression, portfolio optimisation, factor analysis, financial time-series modelling |
-| **Mathematical foundations** | Linear algebra, probability, mathematical statistics, numerical analysis |
-| **Research workflow** | Jupyter notebooks, LaTeX, Git, GitHub |
-
-*Tools listed here should reflect what I have personally used in the corresponding projects.*
+| Programming | Python, C/C++, R |
+| Data analysis | NumPy, pandas |
+| Machine learning | scikit-learn, PyTorch |
+| Scientific computing | SciPy, numerical methods |
+| Quantitative methods | Regression, factor analysis, portfolio optimisation, financial time series |
+| Mathematical foundations | Linear algebra, probability, mathematical statistics, numerical analysis |
+| Research workflow | Jupyter notebooks, LaTeX, Git, GitHub |
 
 ---
 
 ## Research Approach
 
-I aim to build projects around a few principles:
-
 - **Mathematical clarity:** understand the assumptions behind a model, not just its implementation.
-- **Sound evaluation:** use appropriate baselines, chronological splits, and out-of-sample testing where relevant.
+- **Sound evaluation:** use sensible baselines, appropriate data splits, and out-of-sample testing.
 - **Reproducibility:** document data processing, modelling choices, and experimental limitations.
-- **Honest conclusions:** distinguish a useful predictive signal from a robust, implementable strategy.
-- **Iterative improvement:** start with interpretable baselines before adding model complexity.
-
----
-
-## Currently Exploring
-
-- More robust factor-investing and portfolio-evaluation methods
-- Financial time-series validation and leakage-resistant backtesting
-- Statistical and machine-learning approaches to tyre degradation
-- The relationship between predictive accuracy, risk, and practical decision-making
+- **Honest conclusions:** distinguish predictive performance from evidence of a robust trading strategy.
+- **Iterative improvement:** establish interpretable baselines before increasing model complexity.
 
 ---
 
 ## Contact
 
-I'm interested in **research internships, quantitative research, and collaborative projects** in applied mathematics, statistics, financial modelling, and machine learning.
+Interested in research internships and collaborative projects in applied mathematics, statistics, financial modelling, and machine learning.
 
 - **GitHub:** [Julius-Scissor](https://github.com/Julius-Scissor)
-- **LinkedIn:** [Armaan Singh](www.linkedin.com/in/armaan-singh-536357210)
-- **Email:** [armaan24@iisertvm.ac.in](armaan24@iisertvm.ac.in)
-
-<div align="center">
-
-*Mathematical foundations. Reproducible experiments. Evidence over assumptions.*
-
-</div>
+- **LinkedIn:** [Armaan Singh](https://www.linkedin.com/in/armaan-singh-536357210)
